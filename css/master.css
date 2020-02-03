@@ -96,9 +96,54 @@
 
 
 
-
 #sixpage{
     background:#031b4e url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
     padding-top: 30px;
     padding-bottom: 30px;
+}
+#sixpage h2{
+    color: white;
+}
+#sixpage .jumbotron{
+    padding: 2px;
+    background-color: transparent;
+}
+#sixpage ul{
+    padding: 0;
+    border-bottom: 1px solid grey;
+}
+#sixpage ul li{
+    list-style: none;
+    display: inline;
+    line-height: 20px;
+    margin-right: 150px;
+}
+
+#sixpage .link{
+    float: right;
+    margin-right: 10px;
+}
+
+
+
+
+#sevenpage img{
+    width: 200px
+}
+
+
+
+
+
+
+#heightpage{
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    padding-top: 100px;
+}
+#heightpage .testo{
+    background-color: transparent;
+    color: #ffffff;
+}
+#heightpage .testo p{
+    color: #ccdaff;
 }
