@@ -1,5 +1,8 @@
 .navbar-default .navbar-brand {
-    color: blue;
+    color: #0069ff;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #0a2253
 }
 
 
@@ -7,10 +10,24 @@
 
 
 .firstpage{
-    background-image: url();
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
-.firstpage .serio{
-    background-color: red;
+.firstpage .testo{
+    background-color: transparent;
+    color: #ffffff;
+}
+.firstpage .testo p{
+    color: #ccdaff;
+}
+.firstpage .card{
+    margin-top: 120px;
+    width: 440px;
+    height: 540px;
+
 }
 .secondpage{
     background-color: blue
