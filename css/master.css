@@ -147,3 +147,17 @@
 #heightpage .testo p{
     color: #ccdaff;
 }
+
+
+
+#ninepage{
+    background-color: #010e28;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#ninepage ul{
+    float: left;
+}
+#ninepage .foot{
+    border-top: 2px solid gray;
+}
