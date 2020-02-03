@@ -47,5 +47,23 @@
 .immagine img{
     background-size: contain;
     width: 170px;
+}
 
+
+
+
+#thirdpage{
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#thirdpage .list-group{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 30px;
+    border-left: 2px solid grey;
+}
+#thirdpage .jumbotron{
+    padding: 10px;
+    background-color: transparent;
 }
