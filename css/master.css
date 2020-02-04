@@ -1,40 +1,93 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 .navbar-default .navbar-brand {
     color: #0069ff;
+    height: 60px;
+    padding-top: 15px;
+    font-size: 25px;
+}
+#bs-example-navbar-collapse-1{
+    margin-right: 25px;
+    padding-top: 5px;
+}
+#marco{
+    margin-left: 25px;
 }
 .navbar-default .navbar-nav > li > a{
     color: #0a2253
 }
 .navbar button{
     background-color: transparent;
-    color:
+    color:#3f8eff;
+    border-color: #3f8eff;
 }
 
 
 
 #firstpage{
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
-    padding-top: 100px;
+    padding-top: 180px;
+    padding-bottom: 65px;
 }
 #firstpage .testo{
     background-color: transparent;
     color: #ffffff;
+    margin-right: 10px;
 }
 #firstpage .testo p{
     color: #ccdaff;
+    font-size: 25px;
+}
+#firstpage .testo h1{
+    color: #ffffff;
+    font-size: 60px;
 }
 #firstpage input{
-    background-color: red;
-    width: 400px;
+    background-color:white;
+    width: 390px;
     padding-left: 10px;
     padding-right: 10px;
+    border-style: none;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    color:#5c6c8c;
 }
 #firstpage h3{
     width: 400px;
+    font-size: 30px;
+    color:#031b4e;
+    margin-bottom: 30px;
 }
-#firstpage .jumbotron{
-    width: 430px;
+#firstpage .egidio{
+    width: 480px;
     padding: 20px;
+    background-color: #ffffff;
+    margin-left: 10px;
 }
+#firstpage .oreste{
+    width: 390px;
+    background-color:#0069ff;
+}
+#firstpage .social{
+    width: 190px;
+    border: 1px solid#cee2ff;
+    background-color:#f2f8ff;
+    color:#031b4e;
+}
+#firstpage p{
+    font-size: 10px;
+}
+
+
+
+
+
 
 
 
