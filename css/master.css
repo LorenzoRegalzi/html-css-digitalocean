@@ -33,18 +33,22 @@ h2{
     color:#3f8eff;
     border-color: #3f8eff;
 }
-
+.logs{
+    width: 170px;
+    margin-top: 13px;
+}
 
 
 #firstpage{
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
-    padding-top: 180px;
+    padding-top: 150px;
     padding-bottom: 65px;
+    background-position: bottom;
 }
 #firstpage .testo{
     background-color: transparent;
     color: #ffffff;
-
+    margin-top: 100px;
 }
 #firstpage .testo p{
     color: #ccdaff;
@@ -56,34 +60,37 @@ h2{
 }
 #firstpage input{
     background-color:white;
-    width: 390px;
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     border-style: none;
     border: 1px solid #f1f1f1;
-    margin-bottom: 10px;
-    height: 40px;
+    margin-bottom: 15px;
+    height: 50px;
     border-radius: 5px;
     color:#5c6c8c;
 }
 #firstpage h3{
-    width: 400px;
+    width: 100%;
     font-size: 30px;
     color:#031b4e;
     margin-bottom: 30px;
 }
-#firstpage .egidio{
-    width: 480px;
-    padding: 20px;
+#firstpage .subscribe{
+    width: 100%;
+    height: 540px;
+    padding: 32px;
     background-color: #ffffff;
-    transform: translateX(20%);
+
+    line-height: 30px;
 }
-#firstpage .oreste{
-    width: 390px;
+#firstpage .accounts{
+    width: 100%;
+    height: 50px;
     background-color:#0069ff;
 }
 #firstpage .social{
-    width: 190px;
+    width: 100%;
     border: 1px solid#cee2ff;
     background-color:#f2f8ff;
     color:#031b4e;
@@ -165,7 +172,10 @@ h2{
 #fourpage img{
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 56vw
+    width: 56vw;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
 }
 #fourpage h2{
     color: #031b4e;
@@ -243,9 +253,12 @@ h2{
 #sevenpage .jumbotron{
     background-color: #ffffff;
     padding: 30px;
-    width: 730px;
+    width: 98%;
     height: 360px;
     text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #sevenpage p {
     font-size: 20px;
@@ -316,7 +329,45 @@ h2{
     margin-top: 32px;
     color: #7e8592;
 }
-#ninepage .twitter p {
+#ninepage p.reserved{
+    float:left;
+}
+#ninepage p.facebook{
     float: right;
-    color: #7e8592;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    #firstpage {
+        background-image: none;
+        background-color: #0248ff;
+        padding-top: 150px;
+        padding-bottom: 65px;
+    }
+
+    #firstpage .subscribe{
+        transform: none;
+        height: 540px;
+        padding: 32px;
+        background-color: #ffffff;
+        line-height: 30px;
+
+    }
+
+}
+@media screen and (max-width: 1048px) {
+
+    .navbar-fixed-top{
+        background-color: transparent;
+        border-bottom: 0px;
+        position: absolute;
+    }
+
+
+    .navbar-default .navbar-nav > li > a{
+        display: none;
+    }
 }
